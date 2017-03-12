@@ -1,4 +1,4 @@
-# BBBB
+# BurgerBoysBigBreak
 This is a school project and a test for uploading a folder to the GitHub repository.
 I do not own any of the music or photographs used in this game that were not created by me.
 
