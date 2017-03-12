@@ -8,7 +8,7 @@ void gameover()
   Level2Music.close();
   Level3Music.close();
   minim=new Minim(this);
-  DeathMusic=minim.loadFile("Somnus.mp3");//The audio file is loaded again here to fix a bug that prevents the audio from playing if the level is played again after a win screen or death screen.
+  DeathMusic=minim.loadFile("GameOver.mp3");//The audio file is loaded again here to fix a bug that prevents the audio from playing if the level is played again after a win screen or death screen.
   DeathMusic.play();
   DeathMusic.loop();
   background(0);
