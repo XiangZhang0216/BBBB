@@ -5,7 +5,7 @@ void level3()
 {
   Level2Music.close();
   minim=new Minim(this);
-  Level3Music=minim.loadFile("Sable.mp3");//The audio file is loaded again here to fix a bug that prevents the audio from playing if the level is played again after a win screen or death screen.
+  Level3Music=minim.loadFile("Stage3.mp3");//The audio file is loaded again here to fix a bug that prevents the audio from playing if the level is played again after a win screen or death screen.
   Level3Music.play();
   Level3Music.loop();
   background(0);
