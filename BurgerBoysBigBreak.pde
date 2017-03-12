@@ -1,5 +1,5 @@
 //Burger Boy's Big Break
-//Xiang Zhang
+//Xiang Zhang & Bernhard Epp
 //December 2nd, 2015
 
 /*
