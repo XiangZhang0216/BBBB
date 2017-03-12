@@ -7,6 +7,8 @@ void gamecleared()
   Level1Music.close();
   Level2Music.close();
   Level3Music.close();
+  minim=new Minim(this);
+  WinMusic=minim.loadFile("GameCleared.mp3");//The audio file is loaded again here to fix a bug that prevents the audio from playing if the level is played again after a win screen or death screen.
   WinMusic.play();
   background(0);
   PImage img005;
