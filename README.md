@@ -1,8 +1,7 @@
 # BurgerBoysBigBreak
-This is a school project and a test for uploading a folder to the GitHub repository.
+This is a school project from my first year programming course.
 
-This is a little sketch I wrote using Processing 2. It will not run in Processing 3 just saying lol.
-Maybe I will update it a little bit some other day so that it works in Processing 3.
+This is a little sketch I wrote which runs in Processing 2.
 
 The project is right now uploaded to GitHub without any of the media files (music files, image files) included.
 In order for the sketch to run, one needs to prepare some media files first:
@@ -14,7 +13,7 @@ In order for the sketch to run, one needs to prepare some media files first:
     "intro.jpg", "level1.jpg", "level2.jpg", "level3.jpg", and "win.jpg" respectively.
     
     It is recommended that the dimensions of the jpg files do not exceed 1000x1000 pixels, or else the program
-    will lag like crap while running.
+    may run into performance issues.
 
 Make sure you have processing 2 installed, rename the master folder to "BurgerBoysBigBreak".
 
